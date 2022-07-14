@@ -8,8 +8,8 @@ body {
     min-height: 100vh;
     color: #fff;
     font-family: Cormorant, serif;
-    background-color: #0e0e0e;
-    font-weight: 700;
+    background-color: #ffffff;
+    font-weight: 500;
     text-align: center;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ body {
     max-width: 900px;
     padding: 20px 30px;
     border-radius: 10px;
-    background-color: rgba(14, 14, 14, 0.764);
+    background-color: rgba(0, 0, 0, 0.773);
     box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -41,8 +41,9 @@ body {
 .quote-author {
     margin-top: 15px;
     font-size:2rem;
-    font-weight: 400;
+    font-weight: 300;
     font-style: italic;
+
 }
 
 .button-container{
@@ -61,7 +62,7 @@ button {
     background:#fff;
     outline: none;
     padding: 0.5rem 1.8rem;
-    box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65)
+    box-shadow: 0 0.3rem rgba(176, 118, 118, 0.65)
 }
 
 button:hover{
@@ -69,7 +70,18 @@ button:hover{
 }
 button:active{
     transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem rgba(119, 22, 22, 0.65);
 }
+
+.twitter-button:hover{
+    color: #38A1f3;
+}
+
+.fa-twitter {
+
+    font-size: 1.5rem;
+}
+
 /*Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
 
